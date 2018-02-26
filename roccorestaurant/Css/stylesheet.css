@@ -1,0 +1,91 @@
+nav {
+display:flex;
+    justify-content: center;
+}
+
+body {
+    font-family: Berlin Sans FB;
+}
+nav {
+        margin-top: 0px;
+        margin-left: 0px;
+    margin-right: 00px;
+    padding: 10px;
+    background-color: dimgrey;
+}
+
+a {padding-right: 10%;}
+
+
+.title {
+ text-align: center;
+    margin-top: 0px;
+        margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+    background-color: dimgrey;
+    font-family: Blackadder ITC;
+    font-size: 300%;
+}
+
+
+.container1, .container2, .container3, .container4 {
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    }
+
+#menu, #index, #gallery {position: relative;
+top: 180px;
+left:70px;
+background-color: black;
+opacity: .7;}
+
+#contact {
+position: relative;
+top: 180px;
+left:50px;    
+    background-color: black;
+    opacity: .7;
+}
+
+a:link {color: #eab2b2;
+font-size: 300%;
+font-weight: bolder;
+font-family: Harrington;
+text-shadow: 4px 4px #3f0101;}
+
+a:visited {
+    color: darkgray;
+font-size: 300%;
+font-weight: 900;
+font-family: Harrington;.
+text-shadow: 4px 4px #0f1011;
+}
+
+a:hover {
+    color: lightblue;
+font-size: 300%;
+font-weight: 900;
+font-family: Harrington;
+text-shadow: 4px 4px #0f1011;
+    opacity: .5;
+}
+
+.dolci, .piatti, .pizza, .antipasti {
+    text-align: center;
+    padding: 1%;
+}
+
+.hours {
+text-align: center;
+}
+
+.mainfoot, .contactfoot {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: dimgrey;
+}
